@@ -6,7 +6,7 @@
 # Author Email	: myscoreisone@gmail.com
 # Created		: April 2016
 # Version		: 1.0
-# Description	: Online transfer of images from google drive to google photos
+# Description	: Online Direct transfer of images from google drive to google photos using Openshift
 
 
 import httplib2
