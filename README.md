@@ -44,7 +44,7 @@ if you have large number of photos or a crappy Internet Connection
 1. Google Drive API - Enabled for your account
 	* [Turn on the Drive API ](https://developers.google.com/drive/v3/web/quickstart/python#step_1_turn_on_the_api_name) : Follow the step one of Google Python Quickstart 
 2. Python 2.7 or later  - *This is based on 2.7*
-3. Git on windows/linux4. 
+3. Git on windows/linux. 
 
  
 ## Installation
@@ -68,10 +68,12 @@ to the git repository.
 ![step 6](/screenshots/1.jpg?raw=true)
 ![step 7](/screenshots/2_.jpg?raw=true)
 
+Save changes and update the repository
+
 Finally run the following in (cmd/terminal):
 
 ```python
-python drive2photos.py
+python app.py
 ```
 
 ## Using Openshift Hosting
