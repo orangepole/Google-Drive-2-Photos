@@ -66,7 +66,7 @@ to the git repository.
   6. Follow the Screenshot images
 
 ![step 6](/screenshots/1.jpg?raw=true)
-![step 7](/screenshots/2.jpg?raw=true)
+![step 7](/screenshots/2_.jpg?raw=true)
 
 Finally run the following in (cmd/terminal):
 
