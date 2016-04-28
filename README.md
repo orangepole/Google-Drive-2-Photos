@@ -1,5 +1,5 @@
-# Google-Drive-2-Photos
-A python script to Direct Transfer photos from Google drive -> Google photos 
+# Google-Drive-2-Photos using Openshift
+A python script to Directly Transfer photos from Google drive -> Google photos Using Openshift
 
                          *(                
                          *(((              
@@ -39,7 +39,6 @@ This script can be hosted on Heroku or Openshift (Paas) which would be much fast
 if you have large number of photos or a crappy Internet Connection
 ```
 
-
 ## Requirements
 1. Google Drive API - Enabled for your account
 	* [Turn on the Drive API ](https://developers.google.com/drive/v3/web/quickstart/python#step_1_turn_on_the_api_name) : Follow the step one of Google Python Quickstart 
@@ -75,11 +74,14 @@ Finally run the following in (cmd/terminal):
 ```python
 python app.py
 ```
+  7. Obtain the Google Drive OAuth Credentials which will be saved in .credentials folder
+  8. Upload the updated repository to Openshift for Direct Online transfer
 
 ## Using Openshift Hosting
 * Create a Free account 
 * [Getting Started with OpenShift Online](https://developers.openshift.com/getting-started/index.html)
 * Create a New  Python App in the web console and during creation provide your git repository url 
+or later Upload the git repository using ```rhc command line tool```
 
 ![openshift](/screenshots/openshift.jpg?raw=true)
 * In the _rhc command-line tool_ type the command 
